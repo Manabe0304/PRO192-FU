@@ -1,4 +1,5 @@
 package Q2;
+import java.util.Scanner;
 
 public class Exercise2 {
     public int sum(int a, int b) {
@@ -8,9 +9,20 @@ public class Exercise2 {
         return a+b;
     }
     public static void main(String[] args) {
-        Exercise2 obj = new Exercise2();
-        Exercise2 obj2 = new Exercise2();
-        System.out.println("Sum of 3 and 4 is: " + obj.sum(3, 4));
-        System.out.println("Sum of 2.5 and 3.5 is: " + obj2.sum(2.5, 3.5));
+        Scanner sc = new Scanner(System.in);
+        Exercise2 exercise = new Exercise2();
+
+        System.out.print("Enter first integer: ");
+        int intA = sc.nextInt();
+        System.out.print("Enter second integer: ");
+        int intB = sc.nextInt();
+
+        System.out.print("Enter first double: ");
+        double doubleA = sc.nextDouble();
+        System.out.print("Enter second double: ");
+        double doubleB = sc.nextDouble();
+
+        System.out.println("Sum of integers: " + exercise.sum(intA, intB));
+        System.out.println("Sum of doubles: " + exercise.sum(doubleA, doubleB));
     }
 }
