@@ -12,5 +12,6 @@ public class Exercise5 {
         a = b;
         b = c;
         System.out.println("After swapping: a = " + a + ", b = " + b);
+        sc.close();
     }
 }
