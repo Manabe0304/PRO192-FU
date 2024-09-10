@@ -11,5 +11,6 @@ public class Exercise1 {
         } else {
             System.out.print("Even");
         }
+        sc.close();
     }
 }
