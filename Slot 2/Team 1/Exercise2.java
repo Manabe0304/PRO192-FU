@@ -14,5 +14,6 @@ public class Exercise2 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out.println("Tong cua 2 so la: " + obj.sum(a, b));
+        sc.close()
     }
 }
