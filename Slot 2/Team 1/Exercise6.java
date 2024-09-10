@@ -1,4 +1,4 @@
-package Q6
+package Q6;
 
 import java.util.ArrayList;
 import java.util.Scanner;
