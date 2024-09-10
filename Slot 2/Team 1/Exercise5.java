@@ -1,4 +1,4 @@
-package Q5
+package Q5;
 
 import java.util.Scanner;
 
