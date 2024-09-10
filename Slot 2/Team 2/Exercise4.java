@@ -1,6 +1,7 @@
+package Q4;
 import java.util.Scanner;
 
-public class FindElementIndex {
+public class Exercise4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap n (1-7): ");
