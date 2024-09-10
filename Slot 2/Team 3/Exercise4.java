@@ -13,8 +13,9 @@ public class Exercise4 {
             a[i] = sc.nextLine();  
         }
         for (String string : a) {
-            System.out.println(string); 
+            System.out.println(string + " "); 
         }
+        sc.close();
     }
 }
 
