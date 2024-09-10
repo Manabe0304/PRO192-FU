@@ -17,5 +17,6 @@ public class Exercise6 {
         }
 
         System.out.println(fruits);
+        sc.close();
     }
 }
