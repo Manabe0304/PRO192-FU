@@ -13,5 +13,6 @@ public class Exercise1 {
         } while (number != 0);
         
         System.out.println("Loop Exited");
+        sc.close();
     }
 }
