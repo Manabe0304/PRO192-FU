@@ -8,7 +8,6 @@ public class Exercise3 {
         int[] arr = new int[10];
         int sum = 0;
 	for (int i = 0; i < 10; i++) {
-		System.out.print("a[" + i + "] = " );
 		arr[i] = sc.nextInt();
 	}
 		
@@ -16,6 +15,7 @@ public class Exercise3 {
              sum += arr[i];
         } 
         System.out.println("Sum of array is: " + sum);
+	sc.close();
     }
 }
     
