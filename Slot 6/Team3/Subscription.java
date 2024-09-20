@@ -51,3 +51,5 @@ public class Subscription {
         System.out.println(subscription.getDetails());
     }
 }
+
+// Nên sử dụng ChronoUnit.DAYS.between vì nó cung cấp số ngày chính xác mà không cần phải ước lượng.
