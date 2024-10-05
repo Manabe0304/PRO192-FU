@@ -7,7 +7,7 @@
  *
  * @author Asus
  */
-public class WashingMachine implements Appliance{
+public class WashingMachine implements Appliance {
     private String brand;
 
     // Constructor to initialize brand
