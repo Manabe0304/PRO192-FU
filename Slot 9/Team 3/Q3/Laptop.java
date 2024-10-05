@@ -7,6 +7,6 @@
  *
  * @author Asus
  */
-public class Laptop implements Device{
+public class Laptop implements Device {
     // No need to override the deviceInfo method
 }
