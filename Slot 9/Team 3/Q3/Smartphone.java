@@ -7,7 +7,7 @@
  *
  * @author Asus
  */
-public class Smartphone implements Device{
+public class Smartphone implements Device {
     // Override the deviceInfo method
     @Override
     public void deviceInfo() {
