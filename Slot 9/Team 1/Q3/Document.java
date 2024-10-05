@@ -7,7 +7,7 @@
  *
  * @author Asus
  */
-public class Document implements Printer{
+public class Document implements Printer {
     // Override the print method
     @Override
     public void print() {
