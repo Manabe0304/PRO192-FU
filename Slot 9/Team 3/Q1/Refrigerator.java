@@ -7,7 +7,7 @@
  *
  * @author Asus
  */
-public class Refrigerator implements Appliance{
+public class Refrigerator implements Appliance {
     private String model;
 
     // Constructor to initialize model
