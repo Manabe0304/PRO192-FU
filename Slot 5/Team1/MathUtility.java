@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Team1;
 
-/**
- *
- * @author Asus
- */
 public class MathUtility {
     // Static field for PI
     public static final double PI = 3.14159;
