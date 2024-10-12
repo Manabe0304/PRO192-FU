@@ -4,10 +4,6 @@
  */
 package Team1;
 
-/**
- *
- * @author Asus
- */
 public class Product {
     // Private fields
     private String name;
