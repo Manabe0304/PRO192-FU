@@ -4,10 +4,6 @@
  */
 package Team1;
 
-/**
- *
- * @author Asus
- */
 public class Rectangle {
     // Attributes
     private double length;
