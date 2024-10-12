@@ -73,7 +73,6 @@ public class Coffee {
     // Method to sort coffees by size in ascending order
     public static void sortCoffeesBySize(ArrayList<Coffee> coffeeArray) {
         coffeeArray.sort(Comparator.comparingInt(Coffee::getSize));
-        System.out.println("Coffees sorted by size.");
     }
 
     // Method to find a coffee by its name
