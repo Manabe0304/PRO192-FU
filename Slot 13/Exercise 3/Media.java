@@ -27,6 +27,8 @@ public class Media {
     public void setPrice(double price) {
         if (price >= 0) {
             this.price = price;
+        } else {
+            System.out.println("Price cannot be negative.");
         }
     }
 
@@ -37,6 +39,8 @@ public class Media {
     public void setTitle(String title) {
         if (!title.isEmpty()) {
             this.title = title;
+        } else {
+            System.out.println("Title cannot be empty.");
         }
     }
 
@@ -47,6 +51,8 @@ public class Media {
     public void setGenre(String genre) {
         if (!genre.isEmpty()) {
             this.genre = genre;
+        } else {
+            System.out.println("Genre cannot be empty.");
         }
     }
 
