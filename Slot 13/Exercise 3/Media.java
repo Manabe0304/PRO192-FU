@@ -56,8 +56,4 @@ public class Media {
     public String toString() {
         return "Title: " + title + ", Genre: " + genre + ", Price: $" + price;
     }
-
-    Object getReleaseDate() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
