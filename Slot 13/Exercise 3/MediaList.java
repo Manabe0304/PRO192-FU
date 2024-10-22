@@ -74,7 +74,7 @@ public class MediaList {
         }
     }
 
-    public void displayItemsByType(Class<?> type) {
+    public void displayItemsByType(String type) {
         for (int i = 0; i < numOfItems; i++) {
             if (items.get(i).getClass().equals(type)) {
                 System.out.println(items.get(i).toString());

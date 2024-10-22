@@ -19,8 +19,8 @@ public class Main {
             System.out.println("\nMenu:");
             System.out.println("1. Display all items");
             System.out.println("2. Add item");
-            System.out.println("3. Edit item");
-            System.out.println("4. Delete item");
+            System.out.println("3. Find item by title");
+            System.out.println("4. Find item by genre");
             System.out.println("5. Update item");
             System.out.println("6. Remove item");
             System.out.println("7. Sort items by release date");
@@ -53,6 +53,26 @@ public class Main {
                     }
                     break;
                 case 3:
+                    System.out.print("Enter item title: ");
+                    String title = scanner.nextLine();
+                    Media item = mediaList.findItemByTitle(title);
+                    if (item != null) {
+                        System.out.println(item);
+                    } else {
+                        System.out.println("Item not found.");
+                    }
+                    break;
+                case 4:
+                    System.out.print("Enter item genre: ");
+                    String genre = scanner.nextLine();
+                    Media items = mediaList.findItemByGenre(genre);
+                    if (items != null) {
+                        System.out.println(items);
+                    } else {
+                        System.out.println("Item not found.");
+                    }
+                    break;
+                case 5:
                     System.out.print("Enter index of item to update: ");
                     int indexToUpdate = scanner.nextInt();
                     scanner.nextLine(); // Consume newline
@@ -76,11 +96,11 @@ public class Main {
                         mediaList.updateItem(indexToUpdate, digitalCopy);
                     }
                     break;
-                case 4:
-                    System.out.print("Enter index of item to delete: ");
-                    int indexToDelete = scanner.nextInt();
+                case 6:
+                    System.out.print("Enter index of item to remove: ");
+                    int indexToRemove = scanner.nextInt();
                     scanner.nextLine(); // Consume newline
-                    mediaList.removeItem(indexToDelete);
+                    mediaList.removeItem(indexToRemove);
                     break;
                 case 7:
                     mediaList.sortItemsByReleaseDate();
