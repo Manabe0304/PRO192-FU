@@ -7,6 +7,8 @@
  *
  * @author Asus
  */
+import java.util.Scanner;
+
 public class Media {
     private double price;
     private String title;
@@ -50,6 +52,16 @@ public class Media {
 
     public void inputDetails() {
       // Implementation of inputDetails() method
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the title: ");
+        String title = scanner.nextLine();
+
+        System.out.print("Enter the genre: ");
+        String genre = scanner.nextLine();
+
+        System.out.print("Enter the price: ");
+        double price = scanner.nextDouble();
     }
     
     @Override

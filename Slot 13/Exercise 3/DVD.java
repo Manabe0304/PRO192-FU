@@ -47,6 +47,8 @@ public class DVD extends Media {
 
     @Override
     public void inputDetails() {
+        super.inputDetails(); // Call Media's inputDetails()
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter director: ");
         this.director = scanner.nextLine();
