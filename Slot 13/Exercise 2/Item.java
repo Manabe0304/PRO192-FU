@@ -27,6 +27,8 @@ public class Item {
     public void setPrice(double price) {
         if (price >= 0) {
             this.price = price;
+        } else {
+            System.out.println("Price cannot be negative.");
         }
     }
 
@@ -37,6 +39,8 @@ public class Item {
     public void setName(String name) {
         if (!name.isEmpty()) {
             this.name = name;
+        } else {
+            System.out.println("Name cannot be empty.");
         }
     }
 
@@ -47,6 +51,8 @@ public class Item {
     public void setType(String type) {
         if (!type.isEmpty()) {
             this.type = type;
+        } else {
+            System.out.println("Type cannot be empty.");
         }
     }
 
